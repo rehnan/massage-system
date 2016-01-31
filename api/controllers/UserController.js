@@ -38,7 +38,7 @@
       })(req, res, next);
    },
 
-   'auth/facebook/callback': function (req, res, next) {
+   'callback': function (req, res, next) {
     sails.log.info('kkkkkkkkkkkkkkk');
     passport.authenticate('facebook',
        function (req, res) {

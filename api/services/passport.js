@@ -36,7 +36,7 @@ passport.deserializeUser(function (id, done) {
 passport.use(new FacebookStrategy({
   clientID: "1677332259150162",
   clientSecret: "ac11c1d80d07f6e41e2c5869307dc8a5",
-  callbackURL: "http://localhost:1337/auth/facebook/callback",
+  callbackURL: "https://massage-system.herokuapp.com/callback",
   enableProof: false
 }, function (accessToken, refreshToken, profile, done) {
   sails.log.info('EEEEEEEEEE');

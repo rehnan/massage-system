@@ -54,7 +54,7 @@
 
   '/callback': {
     controller: 'UserController',
-    action: 'auth/facebook/callback'
+    action: 'callback'
   }
   /***************************************************************************
   *                                                                          *
